@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+	body {
+		@apply font-fira;
+	}
+	li {
+		@apply px-4;
+		@apply cursor-pointer;
+	}
+}
+
+.focus-visible:focus-visible {
+	outline-color: #00adb5;
+	outline-style: solid;
+	outline-width: 4px;
+}
